@@ -15,3 +15,15 @@ section
 	background-repeat: no-repeat;
 	float: right;
 }
+p
+{
+	text-align: center
+}
+#mainpic
+{
+	border-radius: 50%
+}
+div.button
+{
+	text-align: center
+}
