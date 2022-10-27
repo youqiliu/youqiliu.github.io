@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<link rel="stylesheet" href="css/main.css">
+        <meta charset="UTF-8">
+        <title>
+            Page Template
+        </title>
+    </head>
+    <body>
+        <h1>Super Search</h1>
+	<form action=" https://www.google.com/search">
+		<div>
+			<label for="query">Query: </label>
+			<input type="textarea" id="query" name="as_q" placeholder="Enter your search query" size="100">
+		</div>
+		<div>
+			<label for="site">Site: </label>
+			<input type="text" id="site" name="as_sitesearch" placeholder="Enter the site you wish to search" size="75">
+		</div>
+		<div>
+			<label for="images">Images Only</label>
+			<input type="checkbox" id="images" name="tbm" value="isch">
+		</div>
+		<div>
+			<p>Filetype:
+			<select name="as_filetype">
+				<option value=""></option>
+				<option value="pdf">Adobe PDF Document</option>	
+				<option value="docx">Microsoft Word Document</option>
+				<option value="html">Web Page</option>
+			</select>
+			</p>
+		</div>
+		<div>
+			<lable for="radio">Image Type: </label>
+			<input type="radio" name="as_filetype" Value="jpg">Compressed
+			<input type="radio" name="as_filetype" Value="png">Uncompressed
+			<input type="radio" name="as_filetype" Value="gif">Animation Maybe
+		</div>
+		<div>
+			<input type="submit" value="Search">
+		</div>
+	</form>
+    </body>
+	<p><a href="index.html">HOME</a></p>
+</html>
