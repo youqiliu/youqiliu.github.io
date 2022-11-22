@@ -1,12 +1,12 @@
 :root
 {
-	--favcolor: rgb(125, 0, 0);
+	--favcolor: rgb(244, 3, 252);
 }
 h1
 {
 	text-align: center;
+	background-color: rgb(3, 211, 252);
 	color: var(--favcolor);
-	background-color: rgb(25,0,0);
 	font-size: 38pt;
 }
 section
@@ -17,15 +17,16 @@ section
 p
 {
 	text-align: center;
-	font-size: 14pt;
+	font-size: 1.5vmax;
 }
 #mainpic
 {
 	border-radius: 50%;
+	img-size: 50px;
 }
 
 div.button
 {
 	text-align: center;
+	font-size: 1.5vmax;
 }
-
